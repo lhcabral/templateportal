@@ -1,10 +1,33 @@
-.container img{
-	max-width:100px;
-    max-height:100px;
-    width: auto;
-    height: auto;
-    font-family: $font-family;
+.container {
+	font-family: $font-family;
+	img {
+		max-width:120px;
+	    max-height:120px;
+	    width: auto;
+	    height: auto;
+    }
+    h2 {
+    	font-size: 24px;
+    	margin-top: 25px;
+    	text-transform: uppercase;
+    	font-weight: bold;
+    }
+
 }
+
 .menu-nav{
-	margin-top: 101px;
+	margin-top: 25px;
 }
+
+.btn-custom {
+		background: transparent;
+		width: 100%;
+		right: 100%;
+
+		&:hover, &:focus, &:active{
+			background: $black-1;
+			color: $white;
+			opacity: 0.8;
+			border: 1px solid $black;
+		}
+	}
