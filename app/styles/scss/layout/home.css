@@ -1,16 +1,24 @@
 
 
 .main{
-	#carousel-noticias{
+	#carousel-news{
 		padding-bottom: 30px;
 		margin-bottom: 10px;
 		max-height: 250px;
-		height: auto;
+		
 	}
 	.carousel-inner .item img,
   	.carousel-inner .item a img {
- 		width: 100%;
+ 		width: 800%;
  		max-height: 250px;
 		height: auto;
+	}
+	.news-header{
+		background: #eeeff3;
+		border-top: 3px solid $blue;
+		height: 70px;
+		margin-top: 5px;
+		padding: 8px 10px 25px;
+		text-transform: none;
 	}
 }
