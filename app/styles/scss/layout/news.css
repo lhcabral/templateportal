@@ -1,16 +1,18 @@
 
 
 .main{
+
 	#carousel-news{
 		padding-bottom: 30px;
 		margin-bottom: 10px;
 		max-height: 250px;
-		
 	}
+
 	.row {
 	    margin-right: -15px;
 	    margin-left: -15px;
 	}
+
 	.carousel-inner .item img,
   	.carousel-inner .item a img {
  		width: 100%;
@@ -19,6 +21,7 @@
 		overflow: hidden;
 		position: relative;
 	}
+
 	.news-header{
 		background: #eeeff3;
 		border-top: 3px solid $blue;
@@ -28,6 +31,7 @@
 		text-transform: none;
 		margin-top: 30px;
 	}
+	
 	.new-article{	
 		border-bottom: 1px solid #e7e7e7;
 		margin-bottom: 20px;
@@ -43,6 +47,12 @@
 				max-width: 100%;
 				height: auto;
 			}
+			img {
+				max-width:200px;
+			    max-height:200px;
+			    width: auto;
+			    height: auto;
+		    }
 		}
 		a{
 			text-decoration: none;
@@ -72,6 +82,7 @@
 		}
 		
 	}
+
 	.art-sm{
 		border-left: solid 1px #e7e7e7;
 		margin-bottom: 10px;
@@ -116,4 +127,25 @@
 			height: auto;
 		}
 	}
-}
+
+	.post-more {
+	    clear: both;
+	    float: right;
+	    margin-top: 10px;
+	    padding: 5px 5px 2px;
+	    width: 100%;
+	    a {
+		    border-bottom: 3px solid #152c3e;
+		    color: #596e7f;
+		    float: right;
+		    font-size: 16px;
+		    padding: 1px 0px 5px 20px;
+		    text-transform: uppercase;
+			background: #eeeff3;
+		    i{
+		    	font-size: 1.4em;
+		    	padding-left: 5px;
+		    }
+		}
+	}
+}	 

@@ -6,7 +6,6 @@
         <title>Website Title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
@@ -15,17 +14,20 @@
         <header>
             <div class="row">
                 <div class="container">
-                    <div class="col-md-12 col-sm-12">
-                        <a href="#" class="navbar-brand">
-                            <img id"logo-site" alt="PortalSys" src="images/logo_site.png">PortalSys
+                    <div class="col-xs-12 col-sm-2 col-md-2 hidden-xs">
+                        <a href="#">
+                            <img id"logo-site" alt="PortalSys" src="images/logo_site2.png">
                         </a>
-                        
                     </div>
-                </div>
+                        
+                    <div class="col-xs-12 col-sm-10 col-md-10">
+                        <h2 class="navbar-brand">PortalSys<br><small>Soluções para empresas 3</small></h2>
+                    </div>
+                </div> <!--Fim container LOGO e Nome do Site-->
                 
                 <nav class="navbar navbar-default menu-nav">
                     <div class="container">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
                                     <span class="sr-only">Toggle navigation</span>
@@ -36,23 +38,155 @@
                             </div>
                             <div id="navbarCollapse" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#">Institucional</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
-                                    <li><a href="#">Ensino</a></li>
+                                    <li><a class="btn btn-custom" href="#">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
+                                    <li><a href="#" class="btn btn-custom">link</a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div><!--Fim container Navbar-->
                 </nav>
 
             </div><!--Fim Row-->
         </header>
+
+        <main class="main">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-8" id="carousel-news"><!-- Carousel-->
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="images/img_chania.jpg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                              <img src="images/img_chania2.jpg" alt="Chania">
+                            </div>
+
+                            <div class="item">
+                              <img src="images/img_flower.jpg" alt="Flower">
+                            </div>
+
+                            <div class="item">
+                              <img src="images/img_flower2.jpg" alt="Flower">
+                            </div>
+                          </div>
+
+                          <!-- Left and right controls -->
+                          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <h2 class="news-header">Notícias</h2>
+                            <div class="row"><!--new-article-->
+                                <article class="new-article col-md-12">
+                                    <figure class="col-md-8 col-sm-6 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive" src="images/ultima_noticia.jpg" alt="Ultima notícia">
+                                        </a>
+                                    </figure>
+                                    <section class="col-md-4 col-sm-6 col-xs-12">
+                                        <h5>
+                                            <small>22 novembro, 2016</small>
+                                        </h5>
+                                        <a href="#">
+                                            <h4>Contrary to popular belief</h4>
+                                        </a>
+                                        <p>
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                        </p>
+                                    </section>
+                                </article>
+                            </div><!--Fim new-article-->
+                            <div class="row"><!--Article 2 a 4-->
+                                <article class="art-sm art-2 col-md-4 col-sm-4 col-xs-12">
+                                    <figure>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">   
+                                            <img class="img-responsive" src="https://ufersa.edu.br/wp-content/uploads/sites/24/2016/11/Custos-5-e1479568977914-230x117.jpg" alt="" title="Exposição de custos">
+                                        </a>
+                                    </figure>     
+                                    <section>
+                                        <h5 class="text-warning">
+                                            <small>22 novembro, 2016</small>
+                                        </h5>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">
+                                            <h4>Exposição de Gestão de Custos acontece nesta quarta na Ufersa</h4>
+                                        </a>
+                                        <p>
+                                            Tudo pronto para a Exposição Acadêmica de Gestão de Custos do curso de Ciência Contábeis da Ufersa em Mossoró. O evento acontece n...
+                                        </p> 
+                                    </section>
+                                </article>
+                                <article class="art-sm art-3 col-md-4 col-sm-4 col-xs-12">
+                                    <figure>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">   
+                                            <img class="img-responsive" src="https://ufersa.edu.br/wp-content/uploads/sites/24/2016/11/Custos-5-e1479568977914-230x117.jpg" alt="" title="Exposição de custos">
+                                        </a>
+                                    </figure>     
+                                    <section>
+                                        <h5 class="text-warning">
+                                            <small>22 novembro, 2016</small>
+                                        </h5>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">
+                                            <h4>Exposição de Gestão de Custos acontece nesta quarta na Ufersa</h4>
+                                        </a>
+                                        <p>
+                                            Tudo pronto para a Exposição Acadêmica de Gestão de Custos do curso de Ciência Contábeis da Ufersa em Mossoró. O evento acontece n...
+                                        </p> 
+                                    </section>
+                                </article>
+                                <article class="art-sm art-4 col-md-4 col-sm-4 col-xs-12">
+                                    <figure>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">   
+                                            <img class="img-responsive" src="https://ufersa.edu.br/wp-content/uploads/sites/24/2016/11/Custos-5-e1479568977914-230x117.jpg" alt="" title="Exposição de custos">
+                                        </a>
+                                    </figure>     
+                                    <section>
+                                        <h5 class="text-warning">
+                                            <small>22 novembro, 2016</small>
+                                        </h5>
+                                        <a href="https://assecom.ufersa.edu.br/2016/11/22/exposicao-de-gestao-de-custos-acontece-nesta-quarta-na-ufersa/">
+                                            <h4>Exposição de Gestão de Custos acontece nesta quarta na Ufersa</h4>
+                                        </a>
+                                        <p>
+                                            Tudo pronto para a Exposição Acadêmica de Gestão de Custos do curso de Ciência Contábeis da Ufersa em Mossoró. O evento acontece n...
+                                        </p> 
+                                    </section>
+                                </article>
+                            </div><!--Fim article 2 a 4-->
+                        </div>
+
+                    </div><!--fim col-md-8 carousel, notícias principais-->
+
+                    <div class="col-md-4">
+                        <h1>text col 4</h1>
+                    </div><!--fim col-md-4 coluna lateral, acessos rápidos-->
+
+                </div><!--Fim container-->
+            </div> <!--Fim row-->
+        </main>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -65,7 +199,8 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
         
-        <script src="scripts/_includes/bootstrap.min.js"></script>
+        <script src="scripts/src/_includes/bootstrap.min.js"></script>
+        <script src="scripts/src/_includes/jquery.min.js"></script>
         <script src="scripts/app.js"></script>
     </body>
 </html>
