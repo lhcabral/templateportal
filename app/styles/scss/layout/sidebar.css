@@ -1,12 +1,17 @@
 .main{
+	#sidebar{
+		background: #f7f7f7;
+	}
 	.sidebar-custom {
 		h3 {
     		color: #1567ae;
-			margin-top: 0px;
+			margin: 15px 0;
 			font-size: 18px;
 			margin-bottom: 10px;
 			font-weight: 500;
 			line-height: 1.1;
+			/*border-bottom: 1px solid #152c3e;*/
+
 		}
 		.sr-only {
 		    position: absolute;
@@ -20,8 +25,34 @@
 		}
 		a{
 			color: #428bca;
-			text-decoration: none;
+			/*text-decoration: none;*/
 			background: 0 0;
+
+		}
+		.btn-agenda{
+			background: #e7e7e7; 
+			width: 100%;
+			font-size: 14px;
+			color: #777;
+			text-align: left;
+			display: block;
+			position: relative;
+			overflow: hidden;
+			padding: 15px 20px;
+			margin: 15px 0;
+			
+			i{
+				margin-right: 5px;
+			}
+
+			&:hover, &:focus, &:active{
+			background: $blue;
+			color: $white;
+			opacity: 0.8;
+			border: 1px solid $white;
+			border-radius: 30% 0 30% 0;
+			transition: 0.55s ease-in-out all;
+		}
 		}
 	}
 }
